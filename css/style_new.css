@@ -307,6 +307,7 @@ header.header .social li a {
     margin-bottom: 0;
     margin-top: 15px;
     padding-bottom: 45px;
+    font-family: "Exo 2", sans-serif;
 }
 
 .category-container 
@@ -377,8 +378,9 @@ header.header .social li a {
 .heading {
     float: left;
     width: 100%;
-    font-size: 36px;
+    font-size: 40px;
     color: #191818;
+    font-family: "Exo 2", sans-serif; 
 }
 
 .heading span {
@@ -566,6 +568,7 @@ header.header .social li a {
     display: inline-block;
     font-size: 22px;
     color: #ffffff;
+    font-family: "Exo 2", sans-serif;
 }
 
 .feature-box span {
@@ -596,6 +599,9 @@ header.header .social li a {
 }
 .feature-box, .feature-box span{
     transition:all ease 0.3s;
+}
+.path-container .path {
+    margin-top: 15px;
 }
 /* section four */
 .blog-list {
@@ -770,35 +776,37 @@ header.header .social li a {
 .testimonial-inner {
     background: #ffffff;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
-    width: 60%;
+    width: 100%;
     margin-top: 15px;
+    border: 2px solid #fff;
 }
 
 .testimonial-inner p {
     display: inline-block;
-    width: 70%;
-    font-size: 25px;
+    width: 90%;
+    font-size: 18px;
     color: #057bc7;
-    margin-top: 15px;
+    margin-top: 14px;
 }
 
 .testimonial-inner 
  span.name {
     display: inline-block;
     width: 100%;
-    font-size: 25px;
+    font-size: 16px;
     color: #373737;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .testimonial-inner span.parson {
     display: inline-block;
     width: 100%;
-    background: #175590;
+    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
     padding: 10px;
-    font-size: 23px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -868,6 +876,7 @@ footer.footer .footer_box h4 {
     width: 100%;
     margin-bottom: 20px;
     padding-left: 25px;
+    font-family: "Exo 2", sans-serif;
 }
 
 footer.footer .footer_box ul.footer_list {
@@ -930,7 +939,7 @@ footer.footer .footer_bottom p a:hover {
 #back-to-top {
     position: fixed;
     bottom: 100px;
-    right: 140px;
+    right: 80px;
     z-index: 9999;
     width: 40px;
     height: 40px;
@@ -1111,4 +1120,146 @@ section.blog-details {
     width: 100%;
     color: #fff;
     font-size: 14px;
+}
+.owl-dots {
+    display: none;
+}
+
+.testimonial-bg .owl-carousel .owl-nav button.owl-prev, 
+.testimonial-bg .owl-carousel .owl-nav button.owl-next {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    width: 35px;
+    height: 35px;
+    font-size: 38px;
+    line-height: 30px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.testimonial-bg .owl-carousel .owl-nav button.owl-prev {
+    margin-right: 10px;
+}
+/* Video section */
+.sec_three.abt_vdo {
+    background-image: url('https://assets.studilmu.com/image/64198636611db.jpg');
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+ .sec_three.abt_vdo a {
+    background: none;
+    padding: 0;
+}
+
+.sec_three.abt_vdo:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #00000094;
+}
+.sec_three.abt_vdo .abt_vdo_conty {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+ .sec_three.abt_vdo .abt_vdo_conty a {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    border-radius: 100% !important;
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+    border-color: #fff;
+    float: none;
+    border: 4px double #fc3e46;
+    animation: pulse1 2s infinite;
+}
+
+ .sec_three.abt_vdo .abt_vdo_conty a i {
+    color: #fc3e46;
+    font-size: 51px;
+    margin-left: 6px;
+}
+
+.sec_three.abt_vdo .abt_vdo_conty h2 {
+    font-size: 33px;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    color: #ffffff;
+}
+
+.sec_three.abt_vdo .abt_vdo_conty p {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+@-webkit-keyframes pulse1 {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #fdfdfdb6;
+        box-shadow: 0 0 0 0 #ffffffb6
+    }
+
+    70% {
+        -moz-box-shadow: 0 0 0 10px #fdfdfdb6;
+        box-shadow: 0 0 0 10px #fdfdfdb6
+    }
+
+    100% {
+        -moz-box-shadow: 0 0 0 0 #ffffff00;
+        box-shadow: 0 0 0 0 #ffffff00
+    }
+}
+
+@keyframes pulse1 {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #ffffffb6;
+        box-shadow: 0 0 0 0 #ffffffb6
+    }
+
+    70% {
+        -moz-box-shadow: 0 0 0 10px #ffffff00;
+        box-shadow: 0 0 0 10px #ffffff00
+    }
+
+    100% {
+        -moz-box-shadow: 0 0 0 0 #ffffff00;
+        box-shadow: 0 0 0 0 #ffffff00
+    }
+}
+
+
+ .sec_three.abt_vdo .abt_vdo_conty a:hover {
+    text-decoration: none;
+}
+
+ .sec_three.abt_vdo .abt_vdo_conty a:focus,#wrapper .sec_three.abt_vdo .abt_vdo_conty a:active {
+    text-decoration: none;
 }
