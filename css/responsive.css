@@ -140,6 +140,44 @@
         height: 34px;
         width: 34px;
     }
+    #back-to-top {
+        right: -10px;
+    }
+    .blog-details-image {
+        height: auto;
+    }
+    
+    .blog-details-bottom {
+        text-align: center;
+    }
+    
+    .category-tag {
+        display: inline-block;
+        float: none;
+    }
+    
+    .blog-heading {
+        font-size: 25px;
+    }
+    
+    .details-list {
+        padding-left: 0;
+    }
+    
+    
+    .blog-details-text p {
+        text-align: center;
+    }
+
+    .feature-advice-bottom ul li .left {
+        width: 35%;
+    }
+    
+    .feature-advice-bottom ul li .right {
+        width: 60%;
+    }
+    
+    
 }
 
 @media only screen and (min-width:481px) and (max-width:767px) {
@@ -197,6 +235,18 @@
 }
 #back-to-top {
     right: 10px;
+}
+
+
+.blog-heading {
+    font-size: 30px;
+}
+
+.details-list {
+    padding-left: 0;
+}
+.feature-advice-bottom ul li {
+    width: 48%;
 }
 }
 
@@ -288,6 +338,9 @@ header.header .social li {
     width: 48%;
     float: left;
 }
+.feature-advice-bottom ul li {
+    width: 48%;
+}
 }
 
 /* Laptops */
@@ -365,6 +418,31 @@ header.header .social li {
     
     footer.footer .footer_box ul.social li {
         margin-right: 4px;
+    }
+    #back-to-top {
+        right: 10px;
+    }
+    .blog-details-image {
+        height: auto;
+    }
+    
+    .featured-career h1 {
+        font-size: 16px;
+    }
+    
+    .feature-advice-bottom ul li .left {
+        width: 100%;
+    }
+    
+    .feature-advice-bottom {
+        padding: 10px;
+    }
+    
+    .feature-advice-bottom ul li .right {
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+        padding-right: 0;
     }
 }
 
