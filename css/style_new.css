@@ -55,7 +55,7 @@ header.header .search input[type="text"] {
 }
 
 header.header .search button.srch_btn {
-    background: #0582d2;
+    background: #084b7c;
     border-radius: 50%;
     width: 35px;
     height: 35px;
@@ -211,7 +211,7 @@ header.header .social li a {
     margin-top: 15px;
     border-radius: 20px;
     overflow: hidden;
-    border: 4px solid #ff7f50;
+    border: 4px solid #de5c61;
 }
 
 .slider.custom_slider .slide__content {
@@ -268,9 +268,9 @@ header.header .social li a {
     position: absolute;
     bottom: 10px;
     z-index: 999;
-    background: rgb(255, 127, 80);
-    background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
-    border: 1px solid #ffe45a;
+    background: #0365b1;
+    /* background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%); */
+    border: 1px solid #fff;
     color: #fff;
     width: 35px;
     height: 35px;
@@ -317,9 +317,9 @@ header.header .social li a {
     position: relative;
     z-index: 5;
     border-radius: 15px;
-    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
     margin-top: -38px;
     padding: 15px 5px 15px 15px;
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .category-container .bottom ul {
@@ -379,12 +379,12 @@ header.header .social li a {
     float: left;
     width: 100%;
     font-size: 40px;
-    color: #191818;
-    font-family: "Exo 2", sans-serif; 
+    color: #084b7c;
+    font-family: "Exo 2", sans-serif;
 }
 
 .heading span {
-    color: #0582d2;
+    color: #084b7c;
 }
 
 .info-container {
@@ -396,9 +396,9 @@ header.header .social li a {
 
 .box {
     width: 19%;
-    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
     display: inline-block;
     border-radius: 15px;
+    background: linear-gradient(to right, #084b7c, #0365b1);
     margin-right: 5px;
     padding: 10px;
     box-shadow: 0px 4px 12px 2px #0000006b;
@@ -450,7 +450,7 @@ header.header .social li a {
 .path-box .details {
     position: absolute;
     bottom: -75%;
-    background: #2895db;
+    background: #de5c61;
     height: 100%;
     width: 100%;
     left: 0;
@@ -465,7 +465,7 @@ header.header .social li a {
 
 .path-box:hover .details {
     bottom: 0;
-    background: #2895dbdb;
+    background: #de5c61e8;
     justify-content: center;
 }
 
@@ -502,7 +502,7 @@ header.header .social li a {
     font-size: 15px;
 }
 .more {
-    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
+    background: #0365b1;
     display: inline-block;
     border-radius: 30px;
     padding: 10px 15px;
@@ -551,16 +551,16 @@ header.header .social li a {
 }
 
 .bg-1 {
-    background: #175590;
+    background: #084b7c;
 }
 .bg-2 {
-    background: #0582d2;
+    background: #0365b1;
 }
 .bg-3 {
-    background: #347780;
+    background: #de5c61;
 }
 .bg-4 {
-    background: #2a6b93;
+    background: #073557;
 }
 
 .feature-box  p {
@@ -582,19 +582,19 @@ header.header .social li a {
     justify-content: center;
 }
 .feature-box.bg-1:hover span {
-    background: #175590;
+    background: #084b7c;
     color:#fff;
 }
 .feature-box.bg-2:hover span {
-    background: #0582d2;
+    background: #0365b1;
     color:#fff;
 }
 .feature-box.bg-3:hover span {
-    background: #347780;
+    background: #de5c61;
     color:#fff;
 }
 .feature-box.bg-4:hover span {
-    background: #2a6b93;
+    background: #073557;
     color:#fff;
 }
 .feature-box, .feature-box span{
@@ -629,13 +629,13 @@ header.header .social li a {
 .search-blog form input[type=text] {
     display: inline-block;
     width: 100%;
-    border: 4px solid #175590;
+    border: 4px solid #0365b1;
     border-radius: 6px;
     padding: 10px 90px 10px 10px;
 }
 
 .search-blog form button {
-    background: #175590;
+    background: #0365b1;
     border: 0;
     position: absolute;
     color: #ffffff;
@@ -682,8 +682,8 @@ header.header .social li a {
 }
 
 .blog-list-bottom p {
-    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
     font-size: 16px;
+    background: linear-gradient(to right, #084b7c, #0365b1);
     color: #fff;
     padding: 13px 39px;
     display: inline-flex;
@@ -696,7 +696,7 @@ header.header .social li a {
     display: inline-flex;
     width: 100%;
     font-size: 15px;
-    color: #656565;
+    color: #222222;
     height: 74px;
     align-items: center;
     justify-content: center;
@@ -732,7 +732,7 @@ header.header .social li a {
 }
 
 .paginmod span.current {
-    background: #025e99;
+    background: #084b7c;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -787,7 +787,7 @@ header.header .social li a {
     display: inline-block;
     width: 90%;
     font-size: 18px;
-    color: #057bc7;
+    color: #084b7c;
     margin-top: 14px;
 }
 
@@ -804,7 +804,7 @@ header.header .social li a {
 .testimonial-inner span.parson {
     display: inline-block;
     width: 100%;
-    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
+    background: #0365b1;
     padding: 10px;
     font-size: 15px;
     color: #fff;
@@ -817,8 +817,8 @@ footer.footer {
     float: left;
     width: 100%;
     background: rgb(75, 0, 130);
-    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
     padding: 25px 0;
+    background: linear-gradient(to bottom, #084b7c, #0365b1);
 }
 
 footer.footer .footer_box .logo {
@@ -939,13 +939,13 @@ footer.footer .footer_bottom p a:hover {
 #back-to-top {
     position: fixed;
     bottom: 100px;
-    right: 80px;
+    right: 40px;
     z-index: 9999;
     width: 40px;
     height: 40px;
     text-align: center;
     line-height: 38px;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     border: 0;
     border-radius: 10px;
@@ -953,8 +953,8 @@ footer.footer .footer_bottom p a:hover {
     transition: opacity .2s ease-out;
     opacity: 0;
     box-shadow: 0 0 16px -2px #000000a8;
-    background: rgb(255, 127, 80);
-    background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    background: rgb(232 44 41);
+    /* background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%); */
 }
 
 #back-to-top:hover {
@@ -978,7 +978,7 @@ section.blog-details {
     height: 450px;
     overflow: hidden;
     border-radius: 20px;
-    border: 4px solid #ff9600;
+    border: 4px solid #de5c61;
 }
 
 .blog-details-image img {
@@ -995,7 +995,7 @@ section.blog-details {
 }
 .category-tag {
     float: left;
-    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
+    background: #0365b1;
     display: inline-block;
     border-radius: 30px;
     margin-right: 5px;
@@ -1005,7 +1005,7 @@ section.blog-details {
 }
 
 .blog-heading {
-    color: #29294b;
+    color: #084b7c;
     font-size: 35px;
     float: left;
     width: 100%;
@@ -1072,9 +1072,9 @@ section.blog-details {
     position: relative;
     z-index: 5;
     border-radius: 15px;
-    background: linear-gradient(to bottom, #51ace6, #0582d2, #00426c);
     margin-top: -38px;
     padding: 15px 5px 15px 15px;
+    background: linear-gradient(to right, #084b7c, #0365b1);
 }
 
 .feature-advice-bottom ul {
@@ -1127,14 +1127,15 @@ section.blog-details {
 
 .testimonial-bg .owl-carousel .owl-nav button.owl-prev, 
 .testimonial-bg .owl-carousel .owl-nav button.owl-next {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%);
+    background: #0365b1;
+    /* background: linear-gradient(90deg, rgba(255, 127, 80, 1) 21%, rgba(255, 215, 0, 1) 65%, rgba(255, 248, 225, 1) 100%); */
     width: 35px;
     height: 35px;
     font-size: 38px;
     line-height: 30px;
     border-radius: 6px;
     margin-top: 15px;
+    color: #fff;
 }
 
 .testimonial-bg .owl-carousel .owl-nav button.owl-prev {
