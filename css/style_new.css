@@ -449,7 +449,7 @@ header.header .social li a {
 
 .path-box .details {
     position: absolute;
-    bottom: -75%;
+    bottom: -82%;
     background: #de5c61;
     height: 100%;
     width: 100%;
@@ -473,8 +473,8 @@ header.header .social li a {
     float: left;
     width: 100%;
     color: #ffffff;
-    margin-top: 11px;
-    font-size: 18px;
+    margin-top: 9px;
+    font-size: 15px;
     margin-bottom: 25px;
 }
 
