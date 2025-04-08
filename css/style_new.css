@@ -1264,3 +1264,9 @@ section.blog-details {
  .sec_three.abt_vdo .abt_vdo_conty a:focus,#wrapper .sec_three.abt_vdo .abt_vdo_conty a:active {
     text-decoration: none;
 }
+
+
+footer.footer .footer_box ul.footer_list li a img {
+    width: 17px;
+    margin-right: 5px;
+}
